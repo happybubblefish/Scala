@@ -11,5 +11,6 @@ object PrimitiveDemo {
 //    msg = "val variable cannot be assigned to another varaible";
 
     println("Haha")
+    println("New change!")
   }
 }
