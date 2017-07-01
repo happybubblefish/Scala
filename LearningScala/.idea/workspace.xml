@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7ecb95d-caa0-4da4-b536-c129e2553364" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lin/scala/basic/ArrayDemo.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lin/scala/basic/ListDemo.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LearningScala/com/lin/scala/basic/PrimitiveDemo$.class" afterPath="$PROJECT_DIR$/out/production/LearningScala/com/lin/scala/basic/PrimitiveDemo$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lin/scala/basic/TupleDemo.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lin/scala/basic/StringDemo.scala" afterPath="$PROJECT_DIR$/src/com/lin/scala/basic/StringDemo.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListDemo.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListDemo.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lin/scala/basic/ListDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="70" column="25" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TupleDemo.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lin/scala/basic/TupleDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/com/lin/scala/basic/StringDemo.scala" />
         <option value="$PROJECT_DIR$/src/com/lin/scala/basic/ArrayDemo.scala" />
         <option value="$PROJECT_DIR$/src/com/lin/scala/basic/ListDemo.scala" />
+        <option value="$PROJECT_DIR$/src/com/lin/scala/basic/TupleDemo.scala" />
       </list>
     </option>
   </component>
@@ -77,8 +85,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="556" />
+    <option name="x" value="65" />
+    <option name="y" value="433" />
     <option name="width" value="2026" />
     <option name="height" value="1257" />
   </component>
@@ -166,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListDemo">
+  <component name="RunManager" selected="Application.TupleDemo">
     <configuration default="false" name="PrimitiveDemo" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -215,6 +223,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.lin.scala.basic.ListDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LearningScala" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TupleDemo" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lin.scala.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lin.scala.basic.TupleDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -664,16 +692,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.PrimitiveDemo" />
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayDemo" />
       <item index="2" class="java.lang.String" itemvalue="Application.ListDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TupleDemo" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.ListDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PrimitiveDemo" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.TupleDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ListDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PrimitiveDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -692,15 +722,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498933682996</updated>
-      <workItem from="1498933687723" duration="5217000" />
+      <workItem from="1498933687723" duration="5758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5217000" />
+    <option name="totallyTimeSpent" value="5758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="556" width="2026" height="1257" extended-state="0" />
+    <frame x="65" y="433" width="2026" height="1257" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -771,6 +801,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="70" column="25" lean-forward="false" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lin/scala/basic/TupleDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
